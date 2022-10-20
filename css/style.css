@@ -1,0 +1,197 @@
+body,
+h1,
+h2 {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+ul {
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 10%;
+  position: relative;
+}
+.link {
+  border: 0;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 15px;
+  width: 20%;
+  height: 10vh;
+}
+
+.link:hover {
+  border-bottom: 4px solid #2692b7;
+}
+
+.header-buttons {
+  width: 20%;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 25px;
+  margin-top: 2vh;
+}
+.connexion {
+  background-color: white;
+  border: 3px solid #2d96c8;
+  color: #2d96c8;
+}
+.register {
+  border: 3px solid #2d96c8;
+  color: white;
+  background-color: #2d96c8;
+}
+.menu {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-content {
+  background: linear-gradient(
+    137deg,
+    #22efcb 15.51%,
+    #2980ff 51.65%,
+    #a125ff 85.09%
+  );
+  height: 75vh;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.offer {
+  width: 20%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 25px;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+}
+.offer button {
+  margin: 1vh 0;
+}
+.month-offer {
+  background: linear-gradient(
+    69.06deg,
+    #b84fdd -26.76%,
+    #4965f4 44.6%,
+    #2efb74 132.54%
+  );
+  border-radius: 25px;
+  border: 0;
+  color: white;
+  width: 35%;
+}
+.annual-offer {
+  background-color: transparent;
+  border: 0;
+}
+.discount {
+  color: #007fdb;
+}
+button {
+  cursor: pointer;
+}
+.main-title {
+  font-size: 40px;
+  color: black;
+}
+.second-title {
+  font-size: 80px;
+  color: #fff;
+}
+.main-content {
+  color: #fff;
+}
+.ad {
+  font-size: 25px;
+  text-align: center;
+}
+.email-container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 35px;
+  width: 30%;
+}
+.email {
+  background-color: #fff;
+  border: 0;
+  border-radius: 35px;
+  width: 100%;
+  outline: none;
+  text-indent: 15px;
+  font-size: 17px;
+}
+.icone-container {
+  width: 50px;
+  height: 50px;
+  background-color: #ef5466;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.list {
+  color: rgb(255, 255, 255, 0.6);
+  text-align: center;
+  list-style: none;
+}
+.view-more {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 20px;
+}
+.down-icone {
+  font-size: 20px;
+  margin: 1vh 0;
+}
+.menu-burger {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: none;
+}
+.menu-burger i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.-mr-3 {
+  position: absolute;
+  right: -3px;
+}
+
+.inactive {
+  display: none !important;
+}
+.nav-menu-burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  font-weight: bold;
+}
+.nav-menu-burger p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-menu-burger li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deezer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/69864d08cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/menu-burger.js"></script>
+  </head>
+  <body>
+    <div class="main" id="main2">
+      <div class="header">
+        <div class="header-content" id="voiture">
+          <img
+            src="https://e-cdn-files.dzcdn.net/cache/slash/images/unlogged/common/logos/deezer.b85ee3e3fadefc11085634b3068fb26f.png"
+            alt="logo de Deezer"
+          />
+
+          <div class="menu">
+            <button class="link">Télécharger</button>
+            <button class="link">Offres</button>
+            <button class="connexion header-buttons">Connexion</button>
+            <button class="register header-buttons">Inscription</button>
+          </div>
+        </div>
+        <div class="menu-burger">
+          <i
+            class="fa-solid fa-burger -mr-3"
+            id="openBtn"
+            onclick="handleMenu(true)"
+          ></i>
+          <i
+            class="fa-solid fa-xmark inactive"
+            id="closeBtn"
+            onclick="handleMenu(false)"
+          ></i>
+        </div>
+      </div>
+      <div class="nav-menu-burger inactive" id="navMenuBurger">
+        <p>Connexion</p>
+        <p>Inscription</p>
+        <p>Télécharger l'appli</p>
+        <p>Offres</p>
+        <p>Explorer tous nos Univers</p>
+      </div>
+      <div class="main-content" id="mainContent">
+        <div class="offer">
+          <button class="month-offer">Mensuel</button>
+          <button class="annual-offer">
+            Annuel <span class="discount">-25%</span>
+          </button>
+        </div>
+        <h1 class="main-title">Deezer Premium</h1>
+        <h2 class="second-title">3 mois offerts</h2>
+        <p class="ad">
+          Puis 10,99 €/mois <br />
+          Résilie à tout moment.*
+        </p>
+        <div class="email-container">
+          <input
+            type="text"
+            class="email"
+            placeholder="Ton email pour t'abonner"
+          />
+          <div class="icone-container">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <ul class="list">
+          <li>• Télécharge ta musique</li>
+          <li>• En illimité et à la demande</li>
+          <li>• Écoute sans aucune publicité</li>
+        </ul>
+        <button class="view-more">
+          Voir plus <br /><i class="fa-solid fa-chevron-down down-icone"></i>
+        </button>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

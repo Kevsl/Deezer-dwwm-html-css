@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+  .menu {
+    width: 60%;
+  }
+  .connexion,
+  .register {
+    width: 26%;
+    margin-right: 15px;
+  }
+  .link {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .menu-burger {
+    display: block;
+  }
+  .inactive {
+    display: none !important;
+  }
+  .header-content {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+  }
+  .offer {
+    width: 40%;
+  }
+  .main-title {
+    font-size: 25px;
+  }
+  .second-title {
+    font-size: 40px;
+  }
+  .ad {
+    font-size: 18px;
+  }
+  .email-container {
+    width: 55%;
+  }
+  .menu-burger {
+    display: block;
+  }
+  .hidden {
+    display: none !important;
+  }
+}
+@media (max-width: 550px) {
+  .offer {
+    width: 60%;
+  }
+  .email-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .offer {
+    width: 70%;
+  }
+  .email-container {
+    width: 80%;
+  }
+}
